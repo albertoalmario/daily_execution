@@ -18,7 +18,7 @@ jobs:
       
     - name: Make a small change
       run: |
-        echo "\nUltima actualización: $(date)" >> README.md
+        echo -e "\nUltima actualización: $(date)" >> README.md
         
     - name: Commit and push if there are changes
       run: |
