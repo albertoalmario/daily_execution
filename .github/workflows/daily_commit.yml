@@ -2,7 +2,7 @@ name: Daily Update
 
 on:
   schedule:
-    - cron: '0 */12 * * *' # Se ejecuta a las 00:15 UTC todos los días
+    - cron: '0 */12 * * *' # Se ejecuta cada 12 horas
 
 jobs:
   update:
